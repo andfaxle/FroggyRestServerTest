@@ -1,0 +1,45 @@
+[ 
+    /* Date */
+    {
+        "day": "UInt16",
+        "month": "UInt16",
+        "year": "UInt16"
+    },
+
+    /* DateInterval */
+    {
+        "startDate": "Date",
+        "endDate": "Date"
+    },
+
+    /* Address */
+    {
+        "street": "String",
+        "streetNumber": "int",
+        "postCode": "int",
+        "city": "String",
+        "state": "String",
+        "country": "String"
+    },
+
+    /* Fence */
+    {
+
+    },
+
+    /* User */
+    {
+        "id": "String",
+        "firstName": "String",
+        "lastName": "String",
+        "phoneNumber": "String",
+        "birthdate": "Date",
+        "OperationalReadiness": "DateInterval",
+        "address": "Address",
+        "AssignedFences": [
+            "Fence1",
+            "Fence2",
+            "..."
+        ]
+    }
+]
